@@ -71,7 +71,8 @@ QWidget {
   /* border: 0px solid #59C2FF; Delete for Progressbar, not found
   padding: 0px; */
   color: #B3B1AD;
-  selection-background-color: #01060E; /* change */
+  /* selection-background-color: #01060E; change */
+  selection-background-color: #21262E; /* change */
   selection-color: #FFB454; /* change */
 }
 
@@ -87,7 +88,7 @@ QWidget::item { /* Add elm : transfer list context menu checkItem */
 }
 
 QWidget::item:selected {
-  background-color: #01060E; /* change */
+  background-color: #21262E; /* change */
   color: #39BAE6;
 }
 
@@ -370,13 +371,13 @@ QMenuBar::item:selected { /* Menu item hover */
   /* delete : padding: 4px; */
   background: transparent;
   border: 0px solid #01060E;
-  background-color: #01060E; /* Add */
+  background-color: #21262E; /* Add */
 }
 
 QMenuBar::item:pressed {
   padding: 4px;
   border: 0px solid #01060E;
-  background-color: #01060E; /* change */
+  background-color: #41464E; /* change */
   color: #39BAE6; /* change *//* Delete maegin : delete press effect
   margin-bottom: 0px;
   padding-bottom: 0px; */
@@ -419,7 +420,7 @@ QMenuBar QMenu::item QMenu::item { /* sub menu */
 QMenu::item:selected,
 QMenu::item:hover { /* Add */
   color: #39BAE6; /* change */
-  background-color: #01060E;
+  background-color: #31363E;
 }
 
 QMenuBar QMenu::item:selected,
@@ -639,14 +640,14 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-specific-widgets
 
 --------------------------------------------------------------------------- */
 QTextEdit { /* Toolbar "Add torrent Link's edit area"*/
-  background-color: #01060E; /* change */
+  background-color: #000000; /* change */
   color: #B3B1AD;
   border: 1px solid #0A0E14; /* change */
   border-radius: 4px;
 }
 
 QTextEdit:hover {
-  background-color: #01060E; /* Add */
+  background-color: #000000; /* Add */
   border: 1px solid #273747; /* change */
 }
 
@@ -659,14 +660,14 @@ QTextEdit:selected {
 
 --------------------------------------------------------------------------- */
 QPlainTextEdit { /* in Option : RSS , Edit trackers*/
-  background-color: #01060E; /* change */
+  background-color: #000000; /* change */
   color: #B3B1AD;
   border: 1px solid #0A0E14;
   border-radius: 4px;
 }
 
 QPlainTextEdit:hover {
-  background-color: #01060E; /* Add */
+  background-color: #000000; /* Add */
   border: 1px solid #273747; /* change */
 }
 
@@ -718,7 +719,7 @@ QToolBar QToolButton { /* toolbar button , and Serch box's icon */
 }
 
 QToolBar QToolButton:hover {
-  background-color: #01060E; /* Add */
+  background-color: #000000; /* Add */
   border: 1px solid #39BAE6;
 }
 
@@ -767,7 +768,7 @@ QToolButton#qt_toolbar_ext_button {
 
 --------------------------------------------------------------------------- */
 QAbstractSpinBox {
-  background-color: #01060E; /* change */
+  background-color: #000000; /* change */
   border: 1px solid #273747;
   color: #B3B1AD;
   /* This fixes 103, 111 */
@@ -854,7 +855,7 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qabstractscrollarea
 
 --------------------------------------------------------------------------- */
 QTextBrowser { /* RSS right */
-  background-color: #01060E;
+  background-color: #000000;
   border: 1px solid #273747;
   color: #B3B1AD;
   border-radius: 4px;
@@ -967,12 +968,12 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qpushbutton
 QPushButton {
   font-weight: bold; /* Add */
   background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
-              stop:0.1 #01060E , stop: 0.9 #273747 , stop:0.9 #01060E ); /* Change */
+              stop:0.1 #000000 , stop: 0.9 #273747 , stop:0.9 #000000 ); /* Change */
   color: #B3B1AD;
   border-top: 1px solid #273747;
   border-left: 1px solid #273747;
-  border-bottom: 1px solid #01060E;
-  border-right: 1px solid #01060E;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
   padding: 6px 20px; /* change */
   border-radius: 12px;
   outline: none;
@@ -1012,11 +1013,11 @@ QPushButton:pressed:hover {
 
 QPushButton:hover {
   color: #39BAE6;
-  background: #01060E;
+  background: #000000;
 }
 
 QPushButton:selected {
-  color: #01060E;
+  color: #21262E;
 }
 
 QStatusBar QPushButton {/* Add elm : for status tab button (Speed et) */
@@ -1031,11 +1032,11 @@ QStatusBar QPushButton:hover {/* Add elm */
   color: #B3B1AD;
 }
 QTabWidget QPushButton { /* Add elm : RSS tab */
-  border: 1px solid #01060E;
+  border: 1px solid #000000;
   font-weight: normal;
 }
 QTabWidget QSplitter QPushButton { /* Add elm : for bottom button (Speed et) , Rename, Edit trackers et*/
-  background: #01060E; /* Change */
+  background: #000000; /* Change */
   border-radius: 8px;
   border: 1px solid #273747;
   margin-left: 2px;
@@ -1171,7 +1172,7 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qcombobox
 
 --------------------------------------------------------------------------- */
 QComboBox { /* select box */
-  background-color: #01060E; /* Add */
+  background-color: #21262E; /* Add */
   border: 1px solid #273747;
   border-radius: 4px; /* Option Advanced patch = 0px */ /* Delete
   selection-background-color: #39BAE6;*/
@@ -1190,7 +1191,7 @@ QComboBox QAbstractItemView {
   border-radius: 4px;
   border: 1px solid #273747;
   selection-color: #39BAE6; /* change */
-  selection-background-color: #01060E;
+  selection-background-color: #21262E;
 }
 
 QComboBox QAbstractItemView:hover {/* Add elm */
@@ -1344,7 +1345,7 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qlineedit
 
 --------------------------------------------------------------------------- */
 QLineEdit {  /* Search box (Find bar) or option's path */
-  background-color: #01060E; /* change */
+  background-color: #000000; /* change */
   color: #B3B1AD;
   border: 1px solid #273747;
   padding-top: 2px;
@@ -1365,7 +1366,7 @@ QTabWidget QStackedWidget QStackedWidget QLineEdit:hover { /* Add elm : assum Ma
 }
 
 QLineEdit QToolButton { /* Add elm */ /* Serach box's icon, also: bottom Contact Searchbox */
-  background-color: #01060E; /* change */
+  background-color: #000000; /* change */
   margin-left: 0; /* icon left margin*/
   border: 0px solid #0A0E14;
   border-radius: 5px; /* change */
@@ -1374,11 +1375,11 @@ QLineEdit QToolButton { /* Add elm */ /* Serach box's icon, also: bottom Contact
 }
 QToolBar QLineEdit QToolButton:hover,
 QToolBar QLineEdit QToolButton:active { /* toolbar serachbox' icon*/
-  background-color: #01060E;
+  background-color: #000000;
 }
 
 QTabWidget QLineEdit QToolButton:hover { /* Add elm : assum main window Search box */
-  background-color: #01060E;
+  background-color: #000000;
 }
 
 QLineEdit:disabled {
@@ -1724,12 +1725,12 @@ QTableView,
 QColumnView {
   background-color: #0A0E14;
   color: #B3B1AD;
-  border: 1px solid #01060E; /* change */
+  border: 1px solid #000000; /* change */
   gridline-color: #273747;
   border-radius: 4px;
 }
 QListView { /* add elm : for option left bar */
-  border: 1px solid #01060E;
+  border: 1px solid #000000;
 }
 
 QTreeView:disabled,
@@ -1757,20 +1758,20 @@ QTreeView::item:selected:hover,
 QListView::item:selected:hover,
 QTableView::item:selected:hover,
 QColumnView::item:selected:hover {  /* Memo: Left Sidebar : Transfar */
-  background-color: #01060E;
+  background-color: #000000;
 }
 QTreeView::item:selected:active,
 QListView::item:selected:active,
 QTableView::item:selected:active,
 QColumnView::item:selected:active {
-  background-color: #01060E;
+  background-color: #000000;
 }
 QTreeView::item:!selected:hover,
 QListView::item:!selected:hover,
 QTableView::item:!selected:hover,
 QColumnView::item:!selected:hover {
   color: #F07178;
-  background-color: #01060E;
+  background-color: #000000;
 }
 
 /* Add Start */
@@ -1783,24 +1784,24 @@ QTreeView::item {/* Memo : LeftSidebar non select item (CATEGORIES, TAGS), trans
 QTreeView::item:selected,
 QTreeView::item:selected:active {
   color: #39BAE6;
-  background-color: #01060E;
+  background-color: #21262E;
 }
 /* QTreeView::item:!selected */
 QTreeView::item:selected:hover,
 QTreeView::item:!selected:hover {
   color: #FFB454;
-  background-color: #01060E;
+  background-color: #31363E;
 }
 
 /* Transfer list bg color Patch : Start */
 QTabWidget QStackedWidget QTreeView { /* Memo: Transfer list each item: alt item only : can't hover et */
-  alternate-background-color: #01060E;
+  alternate-background-color: #000000;
 }
 QTabWidget QStackedWidget QStackedWidget QTreeView,
 QTabWidget QStackedWidget QStackedWidget QTreeView:hover,
 QTabWidget QStackedWidget QStackedWidget QTreeView:active { /* Transfer list's bottom list  */
   background-color: #0A0E14; /* Memo: bottom list each item bg */
-  alternate-background-color: #01060E; /* Memo: bottom list each item: alt item only : can't hover et */
+  alternate-background-color: #000000; /* Memo: bottom list each item: alt item only : can't hover et */
 }
 
 /* delete bg patch : QTabWidget QStackedWidget QTreeView:hover */
@@ -1845,7 +1846,7 @@ QListView::item:selected:active {
 QListView::item:selected:hover,
 QListView::item:!selected:hover {
   color: #FFB454;
-  background-color: #01060E;
+  background-color: #000000;
 }
 
 QTableView { /* Add elm : option Advanced */
@@ -2062,7 +2063,7 @@ QToolBox::tab:disabled {
 }
 
 QToolBox::tab:selected {
-  background-color: #01060E;
+  background-color: #21262E;
   border-bottom: 2px solid #39BAE6;
 }
 

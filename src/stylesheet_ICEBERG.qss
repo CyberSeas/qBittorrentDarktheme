@@ -2010,15 +2010,12 @@ QHeaderView::section::vertical:disabled {
 }
 
 QHeaderView::down-arrow {
-  /* Those settings (border/width/height/background-color) solve bug */
-  /* transparent arrow background and size */
-  background-color: #3D425B;
-  color: #9A9CA5;
+  background-color: #273747;
+  color: #626A73;
   height: 12px;
   width: 12px;
   image: url(":/qss_icons/rc/arrow_down.png"); /* used */
 }
-
 QHeaderView::up-arrow {
   background-color: #3D425B;
   height: 12px;
@@ -2237,4 +2234,5 @@ LogWidget {
   qproperty-Critical: #E27878;
   qproperty-BannedPeer: #A093C7;
 }
+
 
