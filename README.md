@@ -1,6 +1,5 @@
 Original themes from: https://github.com/maboroshin/qBittorrentDarktheme
 Fixing the icons in themes so they work on the latest version of qbittorrent.
-Currently only updated ayuDark and ICEBERG. 
 Icons have been reverted to the original icons and previously missing icons are now visible.
 
 Original readme:
