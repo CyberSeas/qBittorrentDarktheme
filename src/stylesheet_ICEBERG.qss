@@ -2010,8 +2010,8 @@ QHeaderView::section::vertical:disabled {
 }
 
 QHeaderView::down-arrow {
-  background-color: #273747;
-  color: #626A73;
+  background-color: #3D425B;
+  color: #9A9CA5;
   height: 12px;
   width: 12px;
   image: url(":/qss_icons/rc/arrow_down.png"); /* used */
